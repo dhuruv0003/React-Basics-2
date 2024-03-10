@@ -4,7 +4,10 @@ import ProductTab from './producttab'
 
 function App() {
   return (
-    <ProductTab/>
+    <>
+      <h1>Blockbustor Deals</h1>
+      <ProductTab />
+    </>
   )
 
 }

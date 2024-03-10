@@ -3,7 +3,7 @@ import Price from "./price.jsx"
 export default function Product({title,idx}){
     let OldPrice=["2000","12000","3000","900"];
     let NewPrice=["1800","10000","2000","600"];
-    let description=[["8000dpi ","5 programmable buttons"],["intutive surface","designed for ipad surface"],["designes for ipad surface"],["wireless","optical orientation"]]
+    let description=[["8000dpi ","5 programmable buttons"],["intutive surface","designed for ipad surface"],["designes for ipad surface","wireless"],["wireless","optical orientation"]]
    
     return(
         <div className="Product">
